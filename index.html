@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weaather Application</title>
     <link rel="stylesheet" href="/Temperature_Calculating/style.css">
 </head>
 <body>
-    
 
+    <div class="container">
+        <h1>Weather App</h1>
+        <form>
+            <input type="text" id="city-input" placeholder="Enter city">
+            <input type="submit" value="Get Weather">
+        </form>
+        <div id="weather-data">
+            <div class="icon">
+                <img src="http://openweathermap.org/img/wn/01d.png" alt="weather icon">
+            </div>
+            <div class="temperature">
+                22°C
+            </div>
+            <div class="description">Sunny  </div>
+            <div class="details">
+                <div>Feels Like : 22°C</div>
+                <div>Gumidity : 40%</div>
+                <div>Wind Speed : 10 km/h</div>
+            </div>
+        </div>
+    </div>
 
     <script src="/Temperature_Calculating/app.js"></script>
 </body>
